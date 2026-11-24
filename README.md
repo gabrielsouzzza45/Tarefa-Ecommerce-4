@@ -118,8 +118,10 @@ Os pedidos aguardam na fila do Redis e os e-mails são enviados assim que o work
 
 Múltiplos workers: escale o worker com 
 ```bash
-docker compose up -d --scale worker=2 e envie novos pedidos. Cada pedido é consumido e enviado apenas uma vez.
+docker compose up -d --scale worker=2 
 ```
+
+E envie novos pedidos. Cada pedido é consumido e enviado apenas uma vez.
 
 ## Estrutura
 
